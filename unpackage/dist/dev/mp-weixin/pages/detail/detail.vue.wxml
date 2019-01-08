@@ -1,0 +1,13 @@
+<template name="21dd5ad2">
+  <view class="_view data-v-7f0208eb index">
+    <swiper bindchange="handleProxy" autoplay interval="{{1000}}" duration="{{1000}}" data-eventid="{{'6lC-1'}}" data-comkey="{{$k}}" class="_swiper data-v-7f0208eb" style=" {{('height:' + (screenHeight + 'px') + ';')}}">
+      <swiper-item wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'EwL-0-'+index}}" data-comkey="{{$k}}" wx:for="{{data}}" wx:for-index="index" wx:for-item="value" class="_swiper-item data-v-7f0208eb">
+        <image src="{{value}}" mode="widthFix" class="_image data-v-7f0208eb"></image>
+      </swiper-item>
+    </swiper>
+    <view class="_view data-v-7f0208eb detail-btn-view">
+      <view class="_view data-v-7f0208eb download" bindtap="handleProxy" data-eventid="{{'etb-2'}}" data-comkey="{{$k}}"></view>
+      <view class="_view data-v-7f0208eb collect" bindtap="handleProxy" data-eventid="{{'hy5-3'}}" data-comkey="{{$k}}"></view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,42 @@
+<template name="70a9ce52">
+  <view class="_view data-v-6463072a center">
+    <view class="_view data-v-6463072a logo" bindtap="handleProxy" hover-class="{{!login ? 'logo-hover' : ''}}" data-eventid="{{'wKw-0'}}" data-comkey="{{$k}}">
+      <image class="_image data-v-6463072a logo-img" src="{{login ? uerInfo.avatarUrl :avatarUrl}}"></image>
+      <view class="_view data-v-6463072a logo-title">
+        <text class="_text data-v-6463072a uer-name">Hi，{{login ? uerInfo.name : '您未登录'}}</text>
+        <text class="_text data-v-6463072a go-login navigat-arrow" wx:if="{{!login}}"></text>
+      </view>
+    </view>
+    <view class="_view data-v-6463072a center-list">
+      <view class="_view data-v-6463072a center-list-item border-bottom">
+        <text class="_text data-v-6463072a list-icon"></text>
+        <text class="_text data-v-6463072a list-text">收藏图片</text>
+        <text class="_text data-v-6463072a navigat-arrow"></text>
+      </view>
+      <view class="_view data-v-6463072a center-list-item">
+        <text class="_text data-v-6463072a list-icon"></text>
+        <text class="_text data-v-6463072a list-text">收藏图集</text>
+        <text class="_text data-v-6463072a navigat-arrow"></text>
+      </view>
+    </view>
+    <view class="_view data-v-6463072a center-list">
+      <view class="_view data-v-6463072a center-list-item border-bottom">
+        <text class="_text data-v-6463072a list-icon"></text>
+        <text class="_text data-v-6463072a list-text">管理图片</text>
+        <text class="_text data-v-6463072a navigat-arrow"></text>
+      </view>
+      <view class="_view data-v-6463072a center-list-item">
+        <text class="_text data-v-6463072a list-icon"></text>
+        <text class="_text data-v-6463072a list-text">上传图片</text>
+        <text class="_text data-v-6463072a navigat-arrow"></text>
+      </view>
+    </view>
+    <view class="_view data-v-6463072a center-list">
+      <view class="_view data-v-6463072a center-list-item">
+        <text class="_text data-v-6463072a list-icon"></text>
+        <text class="_text data-v-6463072a list-text">帐号管理</text>
+        <text class="_text data-v-6463072a navigat-arrow"></text>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,12 @@
+<template name="0d20b96e">
+  <view class="_view data-v-532d267e index">
+    <view class="_view data-v-532d267e tags">
+      <block wx:key="index" key="{{index}}" wx:for="{{data}}" wx:for-index="index" wx:for-item="value">
+        <view class="_view data-v-532d267e tag" bindtap="handleProxy" data-eventid="{{'Hem-0-'+index}}" data-comkey="{{$k}}">
+          <image class="_image data-v-532d267e tag-img" src="{{value.icon}}"></image>
+          <text class="_text data-v-532d267e tag-text">{{value.type}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

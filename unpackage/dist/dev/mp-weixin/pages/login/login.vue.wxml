@@ -1,0 +1,20 @@
+<template name="76ca7c4c">
+  <form class="_form data-v-b7370542 loginView" bindsubmit="handleProxy" data-eventid="{{'FBx-1'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-b7370542 input-view">
+      <view class="_view data-v-b7370542 label-view">
+        <text class="_text data-v-b7370542 label">账号 </text>
+      </view>
+      <input class="_input data-v-b7370542 input" type="text" placeholder="请输入用户名" name="nameValue" />
+    </view>
+    <view class="_view data-v-b7370542 input-view">
+      <view class="_view data-v-b7370542 label-view">
+        <text class="_text data-v-b7370542 label">密码</text>
+      </view>
+      <input class="_input data-v-b7370542 input" type="password" placeholder="请输入密码" name="passwordValue" />
+    </view>
+    <view class="_view data-v-b7370542 button-view">
+      <button type="default" class="_button data-v-b7370542 login" hover-class="hover" formType="submit">登录</button>
+      <button type="default" class="_button data-v-b7370542 register" hover-class="hover" bindtap="handleProxy" data-eventid="{{'Zo3-0'}}" data-comkey="{{$k}}">免费注册</button>
+    </view>
+  </form>
+</template>
